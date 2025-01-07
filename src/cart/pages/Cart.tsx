@@ -24,7 +24,7 @@ export const Cart = () => {
   }, [numberOfItems]);
 
   return (
-    <ShopLayout title="Cart">
+    <ShopLayout>
       <div className="container mx-auto px-4 sm:px-6 py-12">
         <h1 className="text-3xl font-semibold text-gray-900 mb-6">Cart</h1>
 

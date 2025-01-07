@@ -3,7 +3,7 @@ import { ShopLayout } from "../../layouts";
 
 export const Address = () => {
   return (
-    <ShopLayout title={"Shipping address"}>
+    <ShopLayout>
       <FormAddress />
     </ShopLayout>
   );

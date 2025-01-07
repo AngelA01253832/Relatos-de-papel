@@ -19,7 +19,7 @@ export const Search = () => {
   }, [searchTerm]);
 
   return (
-    <ShopLayout title={`Search: ${searchTerm}`}>
+    <ShopLayout>
       {`Results for: ${searchTerm}`}
       <BooksGrid books={booksResults} />
     </ShopLayout>

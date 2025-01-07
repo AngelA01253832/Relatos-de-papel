@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const EmptyCart = () => {
   return (
-    <ShopLayout title="Empty Cart">
+    <ShopLayout>
       <div className="flex justify-center items-center h-[800px]">
         <IoCartOutline size={80} className="mx-5" />
 

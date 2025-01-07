@@ -4,7 +4,7 @@ import { BooksGrid, SalesCarousel } from "../components";
 
 export const Home = () => {
   return (
-    <ShopLayout title="Books">
+    <ShopLayout>
       {/* carousel */}
       <SalesCarousel salesImages={salesImages} />
       <h3 className="font-bold text-3xl mt-20">Our Books</h3>
